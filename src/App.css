@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination-item {
+  color: rgba(0, 0, 0, 0.87);
+} 
+.button:active {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.form-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-header {
+  text-align: center;
+}

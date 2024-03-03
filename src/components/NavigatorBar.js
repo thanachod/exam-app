@@ -28,6 +28,11 @@ const NavigatorBar = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link to={'/manage-exam'}>
+                            จัดการข้อสอบ
+                        </Link>
+                    </li>
+                    <li>
                         <Link to={'/view-score'}>
                             คูคะแนน
                         </Link>
